@@ -90,7 +90,12 @@ flowchart TD
 
 ---
 
-## 🟦 Etapa 1 — Técnico em Informática (base)
+## 📁 Trilha por etapas (clique para abrir cada aba)
+
+<details open>
+<summary><b>🟦 Etapa 1 — Técnico em Informática (base)</b></summary>
+
+<br>
 
 | Tema | Curso gratuito com certificado | Link |
 |---|---|---|
@@ -99,15 +104,24 @@ flowchart TD
 | Informática geral, lógica, pacote Office | Escola Virtual do Governo (EVG) | https://www.escolavirtual.gov.br |
 | TI e suporte técnico | SENAC — cursos online gratuitos | https://www.senac.br |
 
-**Projetos práticos desta etapa:**
-- 🛠️ Montar (ou formatar) um computador do zero e documentar o passo a passo em um `README` com fotos.
-- 🐧 Instalar Linux em dual boot ou máquina virtual e registrar os comandos aprendidos em um "caderno de comandos" no repositório.
-- 🌐 Montar uma rede doméstica simples (ou simular no Cisco Packet Tracer) e documentar o diagrama de rede.
-- 🎫 Simular um sistema de chamados de helpdesk (pode ser até numa planilha ou Trello) para praticar atendimento e documentação técnica.
+**✅ Checklist de cursos**
+- [ ] SENAI — curso de hardware/manutenção concluído
+- [ ] Cisco Networking Academy — NDG Linux Essentials
+- [ ] Cisco Networking Academy — CCNA Introdução às Redes
+- [ ] Escola Virtual do Governo — informática básica
 
----
+**🛠️ Checklist de projetos práticos**
+- [ ] Montar/formatar um PC e documentar o passo a passo com fotos
+- [ ] Instalar Linux (dual boot ou VM) + caderno de comandos
+- [ ] Montar/simular uma rede doméstica (Packet Tracer) com diagrama
+- [ ] Simular um sistema de chamados de helpdesk
 
-## 🟩 Etapa 2 — ADS (Análise e Desenvolvimento de Sistemas)
+</details>
+
+<details>
+<summary><b>🟩 Etapa 2 — ADS (Análise e Desenvolvimento de Sistemas)</b></summary>
+
+<br>
 
 | Tema | Curso gratuito com certificado | Link |
 |---|---|---|
@@ -118,27 +132,41 @@ flowchart TD
 | Idiomas (inglês técnico) | MEC — cursos de idiomas online | (buscar "MEC cursos de idiomas gratuitos") |
 | Diversas trilhas de programação em PT-BR | DIO — Digital Innovation One | https://www.dio.me |
 
-**Projetos práticos desta etapa:**
-- 🔢 **Lógica:** jogo da forca ou calculadora no terminal.
-- 🧩 **POO:** sistema de biblioteca (cadastro de livros, empréstimos) com classes e herança.
-- 🗄️ **Banco de dados:** CRUD completo em SQL (criar, ler, atualizar, apagar) conectado a uma mini aplicação.
-- 📐 **Engenharia de software:** modelar em UML um sistema pequeno (ex: controle de estoque) antes de codar.
-- 🌍 **Web:** landing page responsiva com HTML/CSS/JS, depois evoluir para uma API REST simples.
-- 🔐 **Segurança:** implementar login com senha criptografada (hash) num projeto já existente.
-- 🚀 **Projeto integrador (final):** um sistema completo — por exemplo, gestão de estoque ou agenda de tarefas — unindo banco de dados, back-end e front-end, publicado neste repositório com README, prints e link de demo.
+**✅ Checklist de cursos**
+- [ ] Fundação Bradesco — lógica/programação
+- [ ] IFRS — banco de dados
+- [ ] SENAC — trilha técnica
+- [ ] Unicamp/FM2S — gestão de projetos
+- [ ] MEC — inglês técnico
 
----
+**🚀 Checklist de projetos práticos**
+- [ ] **Lógica:** jogo da forca ou calculadora no terminal
+- [ ] **POO:** sistema de biblioteca (cadastro + empréstimos)
+- [ ] **Banco de dados:** CRUD completo em SQL
+- [ ] **Engenharia de software:** modelagem UML de um sistema pequeno
+- [ ] **Web:** landing page responsiva → evoluir para API REST
+- [ ] **Segurança:** login com senha criptografada (hash)
+- [ ] **Projeto integrador final:** sistema completo publicado no GitHub com README e demo
 
-## 🎬 Canais complementares (sem certificado, mas ótimos para reforçar)
+</details>
+
+<details>
+<summary><b>🎬 Canais complementares (sem certificado, mas ótimos para reforçar)</b></summary>
+
+<br>
 
 - [Curso em Vídeo](https://www.youtube.com/@CursoemVideo) — base de lógica, PHP, Java, banco de dados.
 - [Fabio Akita (Akitando)](https://www.youtube.com/@Akitando) — fundamentos profundos de computação e carreira.
 - [Filipe Deschamps](https://www.youtube.com/@FilipeDeschamps) — programação web e carreira.
 - [Código Fonte TV](https://www.youtube.com/@codigofontetv) — conceitos e mercado de trabalho.
 
+</details>
+
 ---
 
-## ✅ Progresso
+## ✅ Progresso geral
+
+> Marque `[x]` e dê commit pra registrar seu avanço — é a forma de "checkbox interativo" que o GitHub permite num README.
 
 - [ ] Técnico em Informática — fundamentos
 - [ ] Técnico em Informática — projeto prático
