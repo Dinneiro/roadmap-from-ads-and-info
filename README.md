@@ -14,7 +14,7 @@
 
 > `PS C:\Users\dev> echo "do zero ao deploy, documentando tudo no git."`
 
-Repositório onde registro minha trilha de estudos, do zero até Análise e Desenvolvimento de Sistemas (ADS), usando **cursos públicos e governamentais brasileiros com certificado**, e projetos práticos para aprender "na raça".
+Repositório onde vou ajudar e registrar minha trilha de estudos, que fiz do zero até Análise e Desenvolvimento de Sistemas (ADS) e alguns cursos de Informática, usando **cursos públicos e governamentais brasileiros com certificado**, e projetos práticos para aprender "na raça". Desde já agradeço por visualizar minha commit.
 
 <br clear="right"/>
 
