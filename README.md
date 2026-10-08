@@ -181,6 +181,13 @@ flowchart TD
   <img src="https://img.shields.io/badge/feito%20com-%F0%9F%92%99%20e%20caf%C3%A9-041635?style=flat-square" />
 </p>
 
+---
+
+## 📄 Baixe este Roadmap
+
+Quer guardar este plano de estudos para acompanhar offline? 
+[**Clique aqui para baixar o PDF completo do Roadmap**](Estudos-Institucional.pdf) 📥
+
 <p align="center"><i>Feito com 💻, café e muita documentação no GitHub.</i></p>
 
 <p align="center">© 2026 Thiago Oliveira da Silva. Todos os direitos reservados.</p>
