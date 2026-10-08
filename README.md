@@ -2,13 +2,33 @@
   <img src="banner.svg" alt="Banner - Estudos" width="100%" />
 </p>
 
-<img src="https://i.pinimg.com/736x/82/0d/ba/820dbac8c526e4b2f9c5ac8f0c1bc461.jpg" align="right" width="160" alt="mascote" />
+<p align="center">
+  <img src="https://img.shields.io/badge/trilha-T%C3%A9cnico%20%E2%86%92%20ADS-0a2f66?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/cursos-gratuitos%20%7C%20certificado-38bdf8?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/status-em%20andamento-7dd3fc?style=for-the-badge&logo=progress&logoColor=black" />
+</p>
+
+<img src="https://i.pinimg.com/736x/82/0d/ba/820dbac8c526e4b2f9c5ac8f0c1bc461.jpg" align="right" width="150" alt="mascote" />
 
 # 📚 Estudos — Técnico em Informática → ADS
 
+> `PS C:\Users\dev> echo "do zero ao deploy, documentando tudo no git."`
+
 Repositório onde registro minha trilha de estudos, do zero até Análise e Desenvolvimento de Sistemas (ADS), usando **cursos públicos e governamentais brasileiros com certificado**, e projetos práticos para aprender "na raça".
 
-> A imagem do banner pisca "Estudos" via SVG animado (funciona nativamente no GitHub, sem precisar de CSS/JS).
+<br clear="right"/>
+
+---
+
+## 🖥️ Vibe do repositório
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/09/ef/da/09efdaa0c5d114f8da7eec1c3313f8f2.jpg" width="31%" alt="setup 1" />
+  <img src="https://i.pinimg.com/1200x/56/32/cd/5632cdd966e4da91d081cba2fbf1d741.jpg" width="31%" alt="setup 2" />
+  <img src="https://i.pinimg.com/736x/f3/1c/c7/f31cc7f3c3a798a272d370af609a221d.jpg" width="31%" alt="setup 3" />
+</p>
+
+<p align="center"><i>Terminal cromático, café forte e commit todo dia. ⚡</i></p>
 
 ---
 
@@ -61,6 +81,11 @@ flowchart TD
     I -.-> S2
     J -.-> S4
     K -.-> S3
+
+    style A fill:#041635,stroke:#38bdf8,color:#bae6fd
+    style F fill:#0a2f66,stroke:#7dd3fc,color:#ffffff
+    style M fill:#0a2f66,stroke:#7dd3fc,color:#ffffff
+    style N fill:#01040f,stroke:#38bdf8,color:#7dd3fc
 ```
 
 ---
@@ -124,4 +149,10 @@ flowchart TD
 
 ---
 
+<p align="center">
+  <img src="https://img.shields.io/badge/feito%20com-%F0%9F%92%99%20e%20caf%C3%A9-041635?style=flat-square" />
+</p>
+
 <p align="center"><i>Feito com 💻, café e muita documentação no GitHub.</i></p>
+
+<p align="center">© 2026 Thiago Oliveira da Silva. Todos os direitos reservados.</p>
