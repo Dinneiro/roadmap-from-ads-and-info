@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Banner Animado Pixel Art" width="100%" />
+  <img src="banner.svg" alt="Banner - Estudos" width="100%" />
 </p>
 
 <p align="center">
@@ -8,46 +8,151 @@
   <img src="https://img.shields.io/badge/status-em%20andamento-7dd3fc?style=for-the-badge&logo=progress&logoColor=black" />
 </p>
 
-<!-- PLAYER DE MÚSICA DE FUNDO -->
-<!-- Obs: O GitHub bloqueia a tag <audio> por padrão por segurança, mas ela funciona no VSCode ou sites externos. Adicionei um link "Now Playing" para o Spotify/YouTube também! -->
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank">
-    <img src="https://img.shields.io/badge/🎵_Now_Playing-Lofi_Girl_Radio-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Play Music" />
-  </a>
-  <br>
-  <audio controls loop>
-    <!-- Substitua o link pelo arquivo .mp3 do seu repositório se quiser que toque localmente -->
-    <source src="https://stream.ecardio.com.br/lofi.mp3" type="audio/mpeg">
-    Seu navegador não suporta o elemento de áudio.
-  </audio>
-</p>
+<img src="https://i.pinimg.com/736x/82/0d/ba/820dbac8c526e4b2f9c5ac8f0c1bc461.jpg" align="right" width="150" alt="mascote" />
 
-<img src="https://i.pinimg.com/736x/82/0d/ba/820dbac8c526e4b2f9c5ac8f0c1bc461.jpg" align="right" width="150" alt="Mascote Evangelion" style="border-radius: 10px; margin-left: 15px;" />
+# 📚 Estudos — Técnico em Informática → ADS
 
-# 📚 Roadmap: Do Zero ao Deploy
+> `PS C:\Users\dev> echo "do zero ao deploy, documentando tudo no git."`
 
-> `PS C:\Users\dev> echo "documentando tudo no git e codando na raça."`
-
-Repositório onde registro minha evolução, indo do zero no **Técnico em Informática** até me formar em **Análise e Desenvolvimento de Sistemas (ADS)**. Focado em cursos públicos, gratuitos e projetos práticos.
+Repositório onde registro minha trilha de estudos, do zero até Análise e Desenvolvimento de Sistemas (ADS), usando **cursos públicos e governamentais brasileiros com certificado**, e projetos práticos para aprender "na raça".
 
 <br clear="right"/>
 
 ---
 
-## 🗺️ Fluxo da Trilha
+## 🖥️ Vibe do repositório
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/09/ef/da/09efdaa0c5d114f8da7eec1c3313f8f2.jpg" width="31%" alt="setup 1" />
+  <img src="https://i.pinimg.com/1200x/56/32/cd/5632cdd966e4da91d081cba2fbf1d741.jpg" width="31%" alt="setup 2" />
+  <img src="https://i.pinimg.com/736x/f3/1c/c7/f31cc7f3c3a798a272d370af609a221d.jpg" width="31%" alt="setup 3" />
+</p>
+
+<p align="center"><i>Terminal cromático, café forte e commit todo dia. ⚡</i></p>
+
+---
+
+## 🧭 Como usar este repositório
+
+- Cada pasta do projeto corresponde a uma etapa da trilha abaixo.
+- Os cursos linkados são **gratuitos e emitem certificado**. Carga horária, vagas e prazos mudam com frequência — confirme sempre no site oficial antes de se inscrever.
+- A ordem sugerida é **Técnico em Informática primeiro, ADS depois** — a base de hardware, SO e redes facilita muito o resto.
+
+---
+
+## 🗺️ Fluxo da trilha
 
 ```mermaid
 flowchart TD
-    A["🧭 Início: Fundamentos"] --> B["💻 Lógica"]
-    B --> C["🐧 SO & Redes"]
-    C --> F["🎓 MARCO 1: Técnico em Informática"]
-    F --> H["🐍 Programação (POO)"]
-    H --> I["🗄️ Banco de Dados"]
-    I --> K["🌍 Desenvolvimento Web/Mobile"]
-    K --> M["🎓 MARCO 2: ADS Completo"]
-    M --> N["🚀 Deploy & Portfólio"]
+    A["🧭 Início: Fundamentos de TI"] --> B["💻 Lógica de Programação"]
+    B --> C["🖥️ Hardware e Manutenção"]
+    C --> D["🐧 Sistemas Operacionais (Windows/Linux)"]
+    D --> E["🌐 Redes de Computadores"]
+    E --> F["🎓 MARCO 1: Técnico em Informática"]
+    F --> G["🛠️ Projeto: montar/formatar PC + montar rede doméstica"]
+    G --> H["🐍 Programação Orientada a Objetos"]
+    H --> I["🗄️ Banco de Dados (SQL)"]
+    I --> J["📐 Engenharia de Software (UML, Ágil)"]
+    J --> K["🌍 Desenvolvimento Web/Mobile"]
+    K --> L["🔐 Segurança da Informação"]
+    L --> M["🎓 MARCO 2: ADS completo"]
+    M --> N["🚀 Projeto Integrador / Portfólio no GitHub"]
+
+    subgraph T[" Cursos — Técnico em Informática "]
+      direction LR
+      T1[SENAI]
+      T2[Cisco Networking Academy]
+      T3[Escola Virtual do Governo]
+    end
+
+    subgraph S[" Cursos — ADS "]
+      direction LR
+      S1[Fundação Bradesco - Escola Virtual]
+      S2[IFRS]
+      S3[SENAC]
+      S4[Unicamp / FM2S]
+    end
+
+    C -.-> T1
+    D -.-> T2
+    E -.-> T2
+    F -.-> T3
+    H -.-> S1
+    I -.-> S2
+    J -.-> S4
+    K -.-> S3
 
     style A fill:#041635,stroke:#38bdf8,color:#bae6fd
     style F fill:#0a2f66,stroke:#7dd3fc,color:#ffffff
     style M fill:#0a2f66,stroke:#7dd3fc,color:#ffffff
-    style N fill:#01040f,stroke:#00ff41,color:#00ff41
+    style N fill:#01040f,stroke:#38bdf8,color:#7dd3fc
+```
+
+---
+
+## 🟦 Etapa 1 — Técnico em Informática (base)
+
+| Tema | Curso gratuito com certificado | Link |
+|---|---|---|
+| Fundamentos de TI, hardware, manutenção | SENAI — cursos gratuitos de TI | https://www.senai.br |
+| Redes, Linux, Cibersegurança | Cisco Networking Academy (NDG Linux, IT Essentials, CCNA Introdução às Redes) | https://www.netacad.com |
+| Informática geral, lógica, pacote Office | Escola Virtual do Governo (EVG) | https://www.escolavirtual.gov.br |
+| TI e suporte técnico | SENAC — cursos online gratuitos | https://www.senac.br |
+
+**Projetos práticos desta etapa:**
+- 🛠️ Montar (ou formatar) um computador do zero e documentar o passo a passo em um `README` com fotos.
+- 🐧 Instalar Linux em dual boot ou máquina virtual e registrar os comandos aprendidos em um "caderno de comandos" no repositório.
+- 🌐 Montar uma rede doméstica simples (ou simular no Cisco Packet Tracer) e documentar o diagrama de rede.
+- 🎫 Simular um sistema de chamados de helpdesk (pode ser até numa planilha ou Trello) para praticar atendimento e documentação técnica.
+
+---
+
+## 🟩 Etapa 2 — ADS (Análise e Desenvolvimento de Sistemas)
+
+| Tema | Curso gratuito com certificado | Link |
+|---|---|---|
+| Lógica e programação (Python, Java, C) | Fundação Bradesco — Escola Virtual | https://www.ev.org.br |
+| Banco de dados e SQL | IFRS — cursos EAD gratuitos | https://ead.ifrs.edu.br |
+| Programação, dados, trilhas técnicas | SENAC | https://www.senac.br |
+| Gestão de projetos, Ágil, Ciência de Dados | Unicamp / FM2S | (buscar "cursos gratuitos Unicamp FM2S") |
+| Idiomas (inglês técnico) | MEC — cursos de idiomas online | (buscar "MEC cursos de idiomas gratuitos") |
+| Diversas trilhas de programação em PT-BR | DIO — Digital Innovation One | https://www.dio.me |
+
+**Projetos práticos desta etapa:**
+- 🔢 **Lógica:** jogo da forca ou calculadora no terminal.
+- 🧩 **POO:** sistema de biblioteca (cadastro de livros, empréstimos) com classes e herança.
+- 🗄️ **Banco de dados:** CRUD completo em SQL (criar, ler, atualizar, apagar) conectado a uma mini aplicação.
+- 📐 **Engenharia de software:** modelar em UML um sistema pequeno (ex: controle de estoque) antes de codar.
+- 🌍 **Web:** landing page responsiva com HTML/CSS/JS, depois evoluir para uma API REST simples.
+- 🔐 **Segurança:** implementar login com senha criptografada (hash) num projeto já existente.
+- 🚀 **Projeto integrador (final):** um sistema completo — por exemplo, gestão de estoque ou agenda de tarefas — unindo banco de dados, back-end e front-end, publicado neste repositório com README, prints e link de demo.
+
+---
+
+## 🎬 Canais complementares (sem certificado, mas ótimos para reforçar)
+
+- [Curso em Vídeo](https://www.youtube.com/@CursoemVideo) — base de lógica, PHP, Java, banco de dados.
+- [Fabio Akita (Akitando)](https://www.youtube.com/@Akitando) — fundamentos profundos de computação e carreira.
+- [Filipe Deschamps](https://www.youtube.com/@FilipeDeschamps) — programação web e carreira.
+- [Código Fonte TV](https://www.youtube.com/@codigofontetv) — conceitos e mercado de trabalho.
+
+---
+
+## ✅ Progresso
+
+- [ ] Técnico em Informática — fundamentos
+- [ ] Técnico em Informática — projeto prático
+- [ ] ADS — lógica e POO
+- [ ] ADS — banco de dados
+- [ ] ADS — web/mobile
+- [ ] Projeto integrador final
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/feito%20com-%F0%9F%92%99%20e%20caf%C3%A9-041635?style=flat-square" />
+</p>
+
+<p align="center"><i>Feito com 💻, café e muita documentação no GitHub.</i></p>
+
+<p align="center">© 2026 Thiago Oliveira da Silva. Todos os direitos reservados.</p>
